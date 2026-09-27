@@ -1,11 +1,19 @@
-# Java ile Geometrik Modelleme: Rectangle
+# Java Nesne Yönelimli Programlama - Pratik Uygulamalar
 
-Nesne Yönelimli Programlama (OOP) mantığını kavramak için hazırladığım temel bir Java projesi. Sınıf tanımlama, yapıcı metot (constructor) kullanımı ve nesne üzerinden fonksiyon çağırma işlemleri üzerine odaklanılmıştır.
+Bu proje, Java kullanarak temel OOP (Sınıf, Nesne, Constructor) prensiplerini anlamak ve test etmek amacıyla geliştirilmiş iki bağımsız modülden oluşmaktadır.
 
-## Neler Var?
-- Rectangle.java: Dikdörtgenin en (width) ve boy (height) özelliklerini tanımlayan ana sınıfımız. Alan ve çevre hesaplamaları bu sınıfın içinde yapılıyor.
-- Odev.java: Sınıfımızı test ettiğimiz, farklı boyutlarda dikdörtgen nesneleri üretip sonuçları konsola yazdırdığımız çalıştırılabilir dosya.
+## 📂 Proje Modülleri
 
-## Kullanılan İşlemler
-* Alan: Nesnenin genişlik ve yükseklik değerlerinin çarpımı.
-* Çevre: Nesnenin kenar uzunlukları toplamının iki katı.
+### Modül 1: Geometrik Modelleme (Rectangle)
+Bir Rectangle sınıfı oluşturularak, nesnelerin kendi iç özelliklerini (en ve boy) nasıl sakladığı ve bu özellikler üzerinden nasıl işlem yaptığı modellenmiştir. 
+* Varsayılan ve parametreli yapıcı metotlar (constructors) kullanılmıştır.
+* Sınıf içine entegre edilen fonksiyonlar ile alan ve çevre değerleri konsola yazdırılır.
+
+### Modül 2: Finansal Veri Simülasyonu (Stock)
+Borsada işlem gören bir şirketin hisse değerlerini temsil eden Stock sınıfını içerir. 
+* Oracle (ORCL) hissesi örnek alınarak şirketin dünkü ve bugünkü fiyat değerleri sisteme girilmiştir.
+* İki değer arasındaki matematiksel fark analiz edilerek yüzde bazında kar/zarar değişimi hesaplanmaktadır.
+
+## 🚀 Kullanılan Teknolojiler
+* Java
+* Nesne Yönelimli Programlama (OOP) Mimarisi
